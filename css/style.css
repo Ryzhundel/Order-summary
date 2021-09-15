@@ -1,0 +1,126 @@
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100%; /*check*/
+  height: 1440px;
+  width: 900px;
+}
+
+main {
+  position: absolute;
+  height: 700px;
+  width: 450px;
+  background-color: #fff;
+  top: calc(50% - 350px);
+  left: calc(50% - 225px);
+  border-radius: 20px;
+  box-shadow: 0px 12px 12px 1px rgba(0, 0, 0, 0.1);
+}
+main img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main-conteiner {
+  margin: 48px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.main-title {
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 900;
+  color: #182b4f;
+  margin: 0 68px 0 68px;
+}
+.annotation {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7b8191;
+  text-align: center;
+  line-height: 1.5;
+  /* display: flex;
+  justify-content: center; */
+}
+.annual-plan {
+  height: 98px;
+  width: 355px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f9fe;
+}
+.musical-note-img {
+  margin: 25px 19px 25px 24px;
+}
+.ap {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1f2e4f;
+  margin-top: 29px;
+  margin-bottom: 15px;
+}
+.price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #757c96;
+}
+.ap-and-price {
+  padding-bottom: 26px;
+  line-height: 0.7;
+}
+.change {
+  margin: 44px 26px 41px 80px;
+  font-style: normal;
+  font-weight: bold;
+  color: #3a2bb8;
+  text-decoration: underline;
+}
+
+.change:hover {
+  color: rgb(116, 111, 234);
+}
+
+.proceed-to-payment {
+  height: 50px;
+  width: 354px;
+  border-radius: 10px;
+  background-color: #382ae2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  margin-top: 40px;
+  box-shadow: 0px 10px 67px -12px #382ae2;
+  border: 0;
+}
+.cencel-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  color: #6d7693;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cencel-order:hover {
+  color: #1f2e4f;
+}
+.proceed-to-payment:hover {
+  background-color: rgb(116, 111, 234);
+  box-shadow: 0px 15px 117px -7px #dcd8fb;
+}
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
